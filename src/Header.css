@@ -1,0 +1,45 @@
+.Navbar_warapper a {
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.username {
+    
+    font-size: 25px;
+    font-style:normal;
+    
+}
+.gpt3__navbar-links_logo h1 {
+    font-family: var(--font-family);
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.gpt3__navbar-menu_container-links-sign {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+@media screen and (max-width:550px) {
+    .gpt3__navbar {
+        padding: 2rem;
+    }
+
+    .gpt3__navbar-sign {
+        display: none;
+    }
+
+    .gpt3__navbar-menu_container {
+        top: 20px;
+    }
+
+    .gpt3__navbar-menu_container-links-sign {
+        display: block;
+        
+    }
+}
