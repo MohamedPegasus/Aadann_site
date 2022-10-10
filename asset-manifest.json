@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Aadann_site/static/css/main.c8c8b698.css",
-    "main.js": "/Aadann_site/static/js/main.b96f8dc0.js",
+    "main.css": "/Aadann_site/static/css/main.70b0d7b0.css",
+    "main.js": "/Aadann_site/static/js/main.13e8b516.js",
     "static/js/787.cda612ba.chunk.js": "/Aadann_site/static/js/787.cda612ba.chunk.js",
     "static/media/possibility.png": "/Aadann_site/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/Aadann_site/static/media/blog01.cefc0932eae0d33a0342.png",
@@ -15,12 +15,12 @@
     "static/media/react.png": "/Aadann_site/static/media/react.581289b9c91fd811832c.png",
     "static/media/main.jpg": "/Aadann_site/static/media/main.c045b2840e954150f761.jpg",
     "index.html": "/Aadann_site/index.html",
-    "main.c8c8b698.css.map": "/Aadann_site/static/css/main.c8c8b698.css.map",
-    "main.b96f8dc0.js.map": "/Aadann_site/static/js/main.b96f8dc0.js.map",
+    "main.70b0d7b0.css.map": "/Aadann_site/static/css/main.70b0d7b0.css.map",
+    "main.13e8b516.js.map": "/Aadann_site/static/js/main.13e8b516.js.map",
     "787.cda612ba.chunk.js.map": "/Aadann_site/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8c8b698.css",
-    "static/js/main.b96f8dc0.js"
+    "static/css/main.70b0d7b0.css",
+    "static/js/main.13e8b516.js"
   ]
 }
