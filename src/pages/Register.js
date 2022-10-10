@@ -1,5 +1,9 @@
 import React,{useState} from "react";
 import { useNavigate } from "react-router";
+import Navbar from"../Header"
+import Footer from '../containers/footer/Footer'
+import Header from '../containers/header/Header'
+
 
 function Register ()
 {
@@ -27,6 +31,9 @@ function Register ()
     history("/")
     }
     return(
+        <div>
+        <Navbar />
+        <Header />
         <div className="col-sm-6 offset-sm-3">
             <h1>Register Page</h1>
             <input type='text' className="form-control" placeholder="name" value={name} onChange={(e)=>setName(e.target.value)} required/>
@@ -37,6 +44,8 @@ function Register ()
             <br />
             <button className="btn btn-primary" onClick={signup}>Sign Up</button>
             
+        </div>
+        <Footer />
         </div>
     )
 }

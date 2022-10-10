@@ -1,5 +1,8 @@
 import React,{useState, useEffect} from "react";
 import { useNavigate } from "react-router";
+import Navbar from"../Header"
+import Footer from '../containers/footer/Footer'
+import Header from '../containers/header/Header'
 
 
 
@@ -32,7 +35,10 @@ function Login ()
     }
 
     return(
+        
         <div>
+            <Navbar />
+            <Header />
             <h1>Login Page</h1>
             <div className="col-sm-6 offset-sm-3">
             <input type='email' className="form-control" placeholder="email" value={email} onChange={(e)=>setEmail(e.target.value)}required/>
@@ -42,6 +48,7 @@ function Login ()
             <button className="btn btn-primary" onClick={login} >Sign In</button>
             
         </div>
+        <Footer />
         </div>
     )
 }

@@ -83,7 +83,7 @@ const Features = () => {
         </SwiperSlide>
       </Swiper>
     </>
-    <div>
+    <div >
     <button onClick={() => setShow(!show)}> 
           click here
           </button>
@@ -98,7 +98,7 @@ const Features = () => {
 const Item = () => {
   
     return(
-        <div className="explan" style={{marginTop:'2%',marginLeft:'25%', width:'50%', height:'auto', display:'flex',alignContent: 'center', justifyContent:'center',color:'#000', fontSize:'25px', borderRadius:'10px', background:'#eee'}} >
+        <div className="explan" style={{marginTop:'2%',marginLeft:'auto',marginRight:'auto', width:'75%', height:'auto', display:'flex',alignContent: 'center', justifyContent:'center',color:'#000', fontSize:'17px', borderRadius:'10px', background:'#eee'}} >
           <p>Please go below to know the service details and for more details do not hesitate and connect us through the conncet us page </p>
         </div>
     );
