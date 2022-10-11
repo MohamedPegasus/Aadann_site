@@ -1,4 +1,4 @@
-import React, {component as component} from 'react';
+import React, {component } from 'react';
 import './App.css';
 import {BrowserRouter , Route,Routes} from 'react-router-dom';
 import Login from './pages/Login';
@@ -10,24 +10,24 @@ import Blog from './pages/Blog';
 
 
 
-  class App extends component {
-  render(){
+ function App () {
+  
   return (
     <BrowserRouter>
       <div className='App'>
         <div className='gradient__bg'>
-          <Routes>
+          
             <Route exact path='/'element={ <Home /> } />
             <Route  path='/services'element={ <Services />} />
             <Route  path='/concet'element={ <Connect/>} />
             <Route  path='/blog'element={ <Blog />} />
             <Route  path='/login'element={ <Login/>} />
             <Route  path='/register'element={ <Register />} />
-          </Routes>
+          
         </div>
       </div>
     </BrowserRouter>
   );
-}}
+}
 
 export default App;
