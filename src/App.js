@@ -19,11 +19,11 @@ import  Footer  from './containers/footer/Footer';
     <BrowserRouter>
       <div className='App'>
       <div className='gradient__bg'>
-      <Routes>
         <Navbar />
             <Header />
             <WhatGPT3 />
             <Footer />
+      <Routes>
         <Route exact path='/'element={ <Home /> } />
         <Route  path='/services'element={ <Services />} />
         <Route  path='/concet'element={ <Connect/>} />
