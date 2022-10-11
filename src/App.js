@@ -13,9 +13,10 @@ import  Navbar  from './Header';
 
   function App  () {
   return (
-      <BrowserRouter>
+      <div className='App'>
+      <div className='gradient__bg'>
       <Routes>
-        <Navbar />
+        
         <Route exact path='/'element={ <Home /> } />
         <Route exact path='/services'element={ <Services />} />
         <Route exact path='/concet'element={ <Connect/>} />
@@ -23,7 +24,8 @@ import  Navbar  from './Header';
         <Route exact path='/login'element={ <Login/>} />
         <Route exact path='/register'element={ <Register />} />
       </Routes>
-      </BrowserRouter>
+      </div>
+      </div>
     
   );
 }
