@@ -20,11 +20,11 @@ import  Navbar  from './Header';
       
       <Routes>
         <Route exact path='/'element={ <Home /> } />
-        <Route path='/services'element={ <Services />} />
-        <Route path='/concet'element={ <Connect/>} />
-        <Route path='/blog'element={ <Blog />} />
-        <Route path='/login'element={ <Login/>} />
-        <Route path='/register'element={ <Register />} />
+        <Route exact path='/services'element={ <Services />} />
+        <Route exact path='/concet'element={ <Connect/>} />
+        <Route exact path='/blog'element={ <Blog />} />
+        <Route exact path='/login'element={ <Login/>} />
+        <Route exact path='/register'element={ <Register />} />
       </Routes>
       </BrowserRouter>
     </div>
