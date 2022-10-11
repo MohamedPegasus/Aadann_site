@@ -13,6 +13,7 @@ import  Navbar  from './Header';
 
   function App  () {
   return (
+    <BrowserRouter>
       <div className='App'>
       <div className='gradient__bg'>
       <Routes>
@@ -26,7 +27,7 @@ import  Navbar  from './Header';
       </Routes>
       </div>
       </div>
-    
+    </BrowserRouter>
   );
 }
 
