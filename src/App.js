@@ -16,6 +16,7 @@ import  Navbar  from './Header';
     
     <div className='App'>
       <div className='gradient__bg'>
+        <Navbar />
       <BrowserRouter>
       <Routes>
         <Navbar />
