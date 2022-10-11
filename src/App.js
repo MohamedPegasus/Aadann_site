@@ -17,13 +17,12 @@ import  Navbar  from './Header';
       <div className='App'>
       <div className='gradient__bg'>
       <Routes>
-        
         <Route exact path='/'element={ <Home /> } />
-        <Route exact path='/services'element={ <Services />} />
-        <Route exact path='/concet'element={ <Connect/>} />
-        <Route exact path='/blog'element={ <Blog />} />
-        <Route exact path='/login'element={ <Login/>} />
-        <Route exact path='/register'element={ <Register />} />
+        <Route  path='/services'element={ <Services />} />
+        <Route  path='/concet'element={ <Connect/>} />
+        <Route  path='/blog'element={ <Blog />} />
+        <Route  path='/login'element={ <Login/>} />
+        <Route  path='/register'element={ <Register />} />
       </Routes>
       </div>
       </div>
