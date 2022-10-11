@@ -18,6 +18,7 @@ import  Navbar  from './Header';
       <div className='gradient__bg'>
       <BrowserRouter>
       <Routes>
+        <Navbar />
         <Route exact path='/'element={ <Home /> } />
         <Route exact path='/services'element={ <Services />} />
         <Route exact path='/concet'element={ <Connect/>} />
