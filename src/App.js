@@ -1,6 +1,6 @@
 import React, {component } from 'react';
 import './App.css';
-import {BrowserRouter , Route,Routes,Routes as Switch}  from 'react-router-dom';
+import {BrowserRouter , Route,Routes,}  from 'react-router-dom';
 import Login from './pages/Login';
 import Services from './pages/Services';
 import Connect from './pages/Connect';
@@ -15,14 +15,18 @@ import Blog from './pages/Blog';
   return (
     <div className='App'>
         <div className='gradient__bg'>
+          <BrowserRouter>
           <Routes>
+            
               <Route exact path='/'element={ <Index /> } />
               <Route  path='/services'element={ <Services />} />
               <Route  path='/concet'element={ <Connect/>} />
               <Route  path='/blog'element={ <Blog />} />
               <Route  path='/login'element={ <Login/>} />
               <Route  path='/register'element={ <Register />} />
+              
             </Routes>
+            </BrowserRouter>
         </div>
       </div>
   );
