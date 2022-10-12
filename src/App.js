@@ -14,21 +14,17 @@ import Blog from './pages/Blog';
   
   return (
     <div className='App'>
-        <div className='gradient__bg'>
-          <BrowserRouter>
-          <Routes>
-            
-              <Route exact path='/'element={ <Index /> } />
-              <Route  path='/services'element={ <Services />} />
-              <Route  path='/concet'element={ <Connect/>} />
-              <Route  path='/blog'element={ <Blog />} />
-              <Route  path='/login'element={ <Login/>} />
-              <Route  path='/register'element={ <Register />} />
-              
-            </Routes>
-            </BrowserRouter>
-        </div>
-      </div>
+        
+      <Routes>
+        <Route exact path='/'component={ <Index />} />
+        <Route path='/services'component={ <Services />} />
+        <Route path='/concet'component={ <Connect/>} />
+        <Route path='/blog'component={ <Blog />} />
+        <Route path='/login'component={ <Login/>} />
+        <Route path='/register'component={ <Register />} />
+      </Routes>
+    
+    </div>
   );
 }
 
