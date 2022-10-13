@@ -16,15 +16,27 @@ function App() {
   return (
     <div className='App'>
         <div className='gradient__bg'>
-          <h1>aadann</h1>
+          
           <Navbar />
-        <Router>
+          <Router>
           <Routes>
               <Route exact path='/'>
                 <Index />
               </Route>
               <Route  path='/services'>
                 <Services />
+              </Route>
+              <Route  path='/Login'>
+                <Login />
+              </Route>
+              <Route  path='/Connect'>
+                <Connect />
+              </Route>
+              <Route  path='/Register'>
+                <Register />
+              </Route>
+              <Route  path='/Blog'>
+                <Blog />
               </Route>
           </Routes>
       </Router>
