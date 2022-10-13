@@ -5,7 +5,7 @@ import Footer from '../containers/footer/Footer'
 import Header from '../containers/header/Header'
 
 
-function Register ()
+function Register  () 
 {
     const [name,setName]=useState("")
     const [email,setEmail]=useState("")
@@ -32,7 +32,7 @@ function Register ()
     }
     return(
         <div>
-        <Navbar />
+        
         <Header />
         <div className="col-sm-6 offset-sm-3">
             <h1>Register Page</h1>

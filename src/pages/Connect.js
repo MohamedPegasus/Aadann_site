@@ -4,11 +4,10 @@ import Footer from '../containers/footer/Footer'
 import Header from '../containers/header/Header'
 import Brand from "../components/brand/Brand"
 
-function Connect ()
+const Connect = () => 
 {
     return(
         <div>
-            <Navbar />
             <Header />
             <Brand />
             <Footer />

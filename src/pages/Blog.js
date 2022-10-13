@@ -4,11 +4,11 @@ import Footer from '../containers/footer/Footer'
 import Header from '../containers/header/Header'
 import Possibility from '../containers/possibility/Possibility'
 
-function Blog ()
+const Blog = () =>
 {
     return(
         <div>
-            <Navbar />
+            
             <Header />
             <Possibility />
             <Footer />

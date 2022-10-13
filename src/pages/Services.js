@@ -10,7 +10,7 @@ function Services ()
 {
     return(
         <div>
-        <Navbar />
+        
         <Header /> 
             <h1>Services Page</h1>
             <Features />
