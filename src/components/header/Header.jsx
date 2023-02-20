@@ -41,16 +41,16 @@ function Header ()
                                     <div className="gpt3__navbar-links_container" >
                                         <Nav className="me-auto " >
                                         <p  >
-                                        <Link  to="/Aadann_site/">Home</Link>
+                                        <Link to="/Aadann_site/">Home</Link>
                                         </p>
                                         <p >
-                                        <Link  to='/Aadann_site/Services'> Services</Link>
+                                        <Link to='/Aadann_site/Services'> Services</Link>
                                         </p>
                                         <p >
-                                        < Link  to='/Aadann_site/Contact'>Contact </Link>
+                                        < Link to='/Aadann_site/Contact'>Contact </Link>
                                         </p>
                                         <p >
-                                        <Link  to='/Aadann_site/Blog'> Blog</Link>
+                                        <Link to='/Aadann_site/Blog'> Blog</Link>
                                         </p>
                                         </Nav>
                                         </div>
@@ -85,17 +85,17 @@ function Header ()
                                 <div className='gpt3__navbar-menu_container scale-up-center'>
                                         <div className='gpt3__navbar-menu_container-links'>
                                         <Nav className="me-auto">
-                                        <p>
-                                        <Nav.Link href="/Aadann_site/">Home</Nav.Link>
+                                        <p  >
+                                        <Link to="/Aadann_site/">Home</Link>
                                         </p>
-                                        <p>
-                                        <Nav.Link href='/Aadann_site/Services'> Services</Nav.Link>
+                                        <p >
+                                        <Link to='/Aadann_site/Services'> Services</Link>
                                         </p>
-                                        <p>
-                                        < Nav.Link href='/Aadann_site/Contact'>Contact </Nav.Link>
+                                        <p >
+                                        < Link to='/Aadann_site/Contact'>Contact </Link>
                                         </p>
-                                        <p>
-                                        <Nav.Link href='/Aadann_site/Blog'> Blog</Nav.Link>
+                                        <p >
+                                        <Link to='/Aadann_site/Blog'> Blog</Link>
                                         </p>
                                         </Nav>
                                         <div className="gpt3__navbar-users">
