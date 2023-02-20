@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router , Routes, Route} from 'react-router-dom';
+import {BrowserRouter as Router , Routes as Switch, Route} from 'react-router-dom';
 import Header from './components/header/Header';
 import Landing from './components/landing/Landing';
 import Footer from './components/footer/Footer'
@@ -101,15 +101,14 @@ function App() {
     <Router>
     <Header/>
     < Landing />
-    <Routes>
+    <Switch>
     <Route exact path='/Aadann_site/' element={<Home />}></Route>
     <Route path='/Aadann_site/Services'  element={<Services />}></Route>
     <Route path='/Aadann_site/Contact'  element={<Contact />}></Route>
     <Route path='/Aadann_site/Blog'  element={<Blog />}></Route>
     <Route path='/Aadann_site/Login'  element={<Login />}></Route>
     <Route path='/Aadann_site/Register'  element={<Register />}></Route>
-    </Routes>
-    
+    </Switch>
     <Footer />
     </Router>
     </div>
