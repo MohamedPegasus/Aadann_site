@@ -15,13 +15,13 @@ function Header ()
     const history= useNavigate();
     function logOut(){
         localStorage.clear();
-        history("/register")
+        history("/Aadann_site/register")
     }
     function signin (){
-        history("/Login")
+        history("/Aadann_site/Login")
     }
     function signup (){
-        history("/register")
+        history("/Aadann_site/register")
     }
     
     const [ toggleMenu, setToggleMenu] = useState(false);
