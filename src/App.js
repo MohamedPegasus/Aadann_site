@@ -102,12 +102,12 @@ function App() {
     <Header/>
     < Landing />
     <Routes>
-    <Route exact path='/' element={<Home />}></Route>
-    <Route path='/Services'  element={<Services />}></Route>
-    <Route path='/Contact'  element={<Contact />}></Route>
-    <Route path='/Blog'  element={<Blog />}></Route>
-    <Route path='/Login'  element={<Login />}></Route>
-    <Route path='/Register'  element={<Register />}></Route>
+    <Route exact path='/Aadann_site/' element={<Home />}></Route>
+    <Route path='/Aadann_site/Services'  element={<Services />}></Route>
+    <Route path='/Aadann_site/Contact'  element={<Contact />}></Route>
+    <Route path='/Aadann_site/Blog'  element={<Blog />}></Route>
+    <Route path='/Aadann_site/Login'  element={<Login />}></Route>
+    <Route path='/Aadann_site/Register'  element={<Register />}></Route>
     </Routes>
     
     <Footer />
