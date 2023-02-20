@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aadann_site/static/css/main.e0587e38.css",
-    "main.js": "/Aadann_site/static/js/main.491b46c1.js",
+    "main.js": "/Aadann_site/static/js/main.7ec7481f.js",
     "static/js/787.71df535f.chunk.js": "/Aadann_site/static/js/787.71df535f.chunk.js",
     "static/media/woocommerce.jpg": "/Aadann_site/static/media/woocommerce.4c3644e90fa99a2689c2.jpg",
     "static/media/web development.jpg": "/Aadann_site/static/media/web development.a24b6126994d53b05450.jpg",
@@ -22,11 +22,11 @@
     "static/media/react.png": "/Aadann_site/static/media/react.581289b9c91fd811832c.png",
     "index.html": "/Aadann_site/index.html",
     "main.e0587e38.css.map": "/Aadann_site/static/css/main.e0587e38.css.map",
-    "main.491b46c1.js.map": "/Aadann_site/static/js/main.491b46c1.js.map",
+    "main.7ec7481f.js.map": "/Aadann_site/static/js/main.7ec7481f.js.map",
     "787.71df535f.chunk.js.map": "/Aadann_site/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0587e38.css",
-    "static/js/main.491b46c1.js"
+    "static/js/main.7ec7481f.js"
   ]
 }
