@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/Aadann_site/static/css/main.70b0d7b0.css",
-    "main.js": "/Aadann_site/static/js/main.a2f00570.js",
-    "static/js/787.cda612ba.chunk.js": "/Aadann_site/static/js/787.cda612ba.chunk.js",
-    "static/media/possibility.png": "/Aadann_site/static/media/possibility.525f13b61a2157d44de0.png",
+    "main.css": "/Aadann_site/static/css/main.e0587e38.css",
+    "main.js": "/Aadann_site/static/js/main.15f149eb.js",
+    "static/js/787.71df535f.chunk.js": "/Aadann_site/static/js/787.71df535f.chunk.js",
+    "static/media/woocommerce.jpg": "/Aadann_site/static/media/woocommerce.4c3644e90fa99a2689c2.jpg",
+    "static/media/web development.jpg": "/Aadann_site/static/media/web development.a24b6126994d53b05450.jpg",
+    "static/media/web design (4).jpg": "/Aadann_site/static/media/web design (4).2e904963eb3758ba3e58.jpg",
     "static/media/blog01.png": "/Aadann_site/static/media/blog01.cefc0932eae0d33a0342.png",
+    "static/media/hosting.jpg": "/Aadann_site/static/media/hosting.df71e637fdc2499c14a9.jpg",
+    "static/media/ecommerce.jpg": "/Aadann_site/static/media/ecommerce.21edbdf4d4489d7e1854.jpg",
+    "static/media/pexels-lukas-574070.jpg": "/Aadann_site/static/media/pexels-lukas-574070.8c34f991e5e570ff3a10.jpg",
     "static/media/pexels-xxss-is-back-777001 (1).jpg": "/Aadann_site/static/media/pexels-xxss-is-back-777001 (1).431f2679674b2be90cbd.jpg",
-    "static/media/lee-campbell-DtDlVpy-vvQ-unsplash.jpg": "/Aadann_site/static/media/lee-campbell-DtDlVpy-vvQ-unsplash.b51722100b952bb670f6.jpg",
-    "static/media/Title-Image-4_80465274aebb5.webp": "/Aadann_site/static/media/Title-Image-4_80465274aebb5.f0bfe209e756c56124a9.webp",
+    "static/media/email.jpg": "/Aadann_site/static/media/email.1052c3e8fe348e80965b.jpg",
     "static/media/web.jpg": "/Aadann_site/static/media/web.d6decbcab224e7c40290.jpg",
-    "static/media/webapp.png": "/Aadann_site/static/media/webapp.917c206e10a5c949f424.png",
-    "static/media/ecommerce.png": "/Aadann_site/static/media/ecommerce.86d20cfec6be958bdf59.png",
+    "static/media/web design (8).jpg": "/Aadann_site/static/media/web design (8).71be70e9784a184aad88.jpg",
+    "static/media/wordpress.jpg": "/Aadann_site/static/media/wordpress.c486ad3480b2ca7207c4.jpg",
+    "static/media/graphic.jpg": "/Aadann_site/static/media/graphic.7e6b0b94fd45e40566ba.jpg",
+    "static/media/lee-campbell-DtDlVpy-vvQ-unsplash.jpg": "/Aadann_site/static/media/lee-campbell-DtDlVpy-vvQ-unsplash.b51722100b952bb670f6.jpg",
+    "static/media/Logo.png": "/Aadann_site/static/media/Logo.9808e3fb69b8284c34b3.png",
     "static/media/people.png": "/Aadann_site/static/media/people.5cd2d6fbcd48bd63f106.png",
     "static/media/react.png": "/Aadann_site/static/media/react.581289b9c91fd811832c.png",
-    "static/media/main.jpg": "/Aadann_site/static/media/main.c045b2840e954150f761.jpg",
     "index.html": "/Aadann_site/index.html",
-    "main.70b0d7b0.css.map": "/Aadann_site/static/css/main.70b0d7b0.css.map",
-    "main.a2f00570.js.map": "/Aadann_site/static/js/main.a2f00570.js.map",
-    "787.cda612ba.chunk.js.map": "/Aadann_site/static/js/787.cda612ba.chunk.js.map"
+    "main.e0587e38.css.map": "/Aadann_site/static/css/main.e0587e38.css.map",
+    "main.15f149eb.js.map": "/Aadann_site/static/js/main.15f149eb.js.map",
+    "787.71df535f.chunk.js.map": "/Aadann_site/static/js/787.71df535f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.70b0d7b0.css",
-    "static/js/main.a2f00570.js"
+    "static/css/main.e0587e38.css",
+    "static/js/main.15f149eb.js"
   ]
 }
