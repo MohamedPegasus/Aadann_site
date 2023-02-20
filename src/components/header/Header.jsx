@@ -15,13 +15,13 @@ function Header ()
     const history= useNavigate();
     function logOut(){
         localStorage.clear();
-        history("/Aadann_site/register")
+        history("/Aadann_site/")
     }
     function signin (){
         history("/Aadann_site/Login")
     }
     function signup (){
-        history("/Aadann_site/register")
+        history("/Aadann_site/Register")
     }
     
     const [ toggleMenu, setToggleMenu] = useState(false);
@@ -41,16 +41,16 @@ function Header ()
                                     <div className="gpt3__navbar-links_container" >
                                         <Nav className="me-auto " >
                                         <p  >
-                                        <Nav.Link  href="/Aadann_site/">Home</Nav.Link>
+                                        <Link  to="/Aadann_site/">Home</Link>
                                         </p>
                                         <p >
-                                        <Nav.Link  href='/Aadann_site/Services'> Services</Nav.Link>
+                                        <Link  to='/Aadann_site/Services'> Services</Link>
                                         </p>
                                         <p >
-                                        < Nav.Link  href='/Aadann_site/Contact'>Contact </Nav.Link>
+                                        < Link  to='/Aadann_site/Contact'>Contact </Link>
                                         </p>
                                         <p >
-                                        <Nav.Link  href='/Aadann_site/Blog'> Blog</Nav.Link>
+                                        <Link  to='/Aadann_site/Blog'> Blog</Link>
                                         </p>
                                         </Nav>
                                         </div>
